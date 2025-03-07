@@ -1,9 +1,11 @@
-import { useState } from "react";
-
-const messages = ["Learn React ", "Apply for jobs ", "Invest your new income "];
+const messages = [
+  "Learn React ",
+  "Apply for jobs ",
+  "Invest your new income ",
+];
 
 function App() {
-  const [steps, setSteps] = useState(1);
+  const [steps, setSteps] = React.useState(1);
 
   return (
     <div className="steps">
@@ -35,3 +37,4 @@ function App() {
   );
 }
 export default App;
+
