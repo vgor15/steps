@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div>
-      <button className="close" onClick={() => setIsOpen(!isOpen)}>
+      <button className="close" onClick={(setIsOpen(!isOpen))}>
         &times;
       </button>
       {isOpen && (
