@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <button className="close" onClick={() => setIsOpen(!isOpen)}>
-        &times; 
+        &times;
       </button>
       {isOpen && (
         <div className="steps">
